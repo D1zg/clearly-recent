@@ -1,0 +1,13 @@
+{
+  "name": "Clearly Recent",
+  "author": "Dizg",
+  "flags": [],
+  "api_version": 1,
+  "version": "1.0.0",
+  "publish": {
+    "tags": [
+      "utility"
+    ],
+    "description": "Hides uninstalled games from Recent Games on the Steam Deck Home screen."
+  }
+}

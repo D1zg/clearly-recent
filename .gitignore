@@ -1,0 +1,12 @@
+node_modules/
+dist/
+releases/
+.template/
+.references/
+.pnpm-store/
+.DS_Store
+__pycache__/
+docs/internal/
+.tools/
+!third-party/decky-api/dist/
+!third-party/decky-api/dist/**
