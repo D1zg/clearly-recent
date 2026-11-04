@@ -107,25 +107,18 @@ BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bu
 
 ## Support
 
-If you find the plugin useful, a small tip is always appreciated. Support is entirely optional.
+Clearly Recent is free and open source, built for my own Steam Deck and shared with the community. If it is useful to you, a small tip is always appreciated.
 
-<details>
-<summary><img src="docs/support/coffee-usdt.svg" alt="Buy me a coffee — click to show USDT address and QR code" width="296" height="44" align="middle" /> &nbsp; USDT · TON</summary>
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg)](https://my.tt/transfer/UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6?jetton=EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs)
 
-**Send only USDT on the TON network.** Do not send via TRON (TRC20), Ethereum (ERC20), Solana or BNB Smart Chain (BEP20).
-
-- **Asset:** USDT (Tether USD)
-- **Network:** TON
-- **Minimum deposit shown by Wallet:** 0.01 USDT; sender fees are additional.
-
-**Receiving address:**
+The button opens a USDT payment request in **MyTonWallet** for the receiving address below. You can also send from **Telegram Wallet** or another wallet: choose **USDT on TON** and copy this address.
 
 ```text
 UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
 ```
 
-<img src="docs/support/usdt-ton-qr.png" alt="QR code containing the USDT receiving address on TON" width="240" />
+**USDT · TON only.** Minimum deposit shown by Wallet: **0.01 USDT**, excluding sender fees. Check the asset and network before confirming.
 
-Scan the QR code with a compatible wallet app, or copy the address above. Select **USDT** on **TON** and check the full address before confirming. The receiving Wallet prohibits deposits from sanctioned exchanges; such deposits may be frozen.
+<img src="docs/support/usdt-ton-qr.png" alt="Original receiving QR code from Telegram Wallet" width="180" />
 
-</details>
+Scan the original Wallet QR code if preferred, and select USDT on TON in your wallet. Deposits from sanctioned exchanges may be frozen by the receiving Wallet.
