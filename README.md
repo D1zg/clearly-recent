@@ -70,7 +70,7 @@ Decky → Plugins → Clearly Recent → Uninstall. The native behaviour returns
 
 ## Compatibility
 
-Steam Deck with Decky Loader. The earlier 0.1.1 implementation was confirmed working on a real Steam Deck. For 1.0.0, the user confirmed Home works and the hidden counter displays 11 on SteamOS 3.8.16 Stable. The user also confirmed that a game remains visible during and after installation and disappears immediately after uninstall. The user confirmed correct operation after a full device restart. Uninstalling the plugin was confirmed to restore native Recent contents. The maintainer also reported successful Beta testing in the Store submission. No independent third-party testing report is claimed.
+Steam Deck with Decky Loader. The earlier 0.1.1 implementation was confirmed working on a real Steam Deck. For 1.0.0, the user confirmed Home works and the hidden counter displays 11 on SteamOS 3.8.16 Stable. The user also confirmed that a game remains visible during and after installation and disappears immediately after uninstall. The user confirmed correct operation after a full device restart. Uninstalling the plugin was confirmed to restore native Recent contents. The maintainer also reported successful Beta testing in the Store submission. No independent third-party testing report is claimed. Exact hidden-counter accuracy and the literal Active-status indicator were not independently verified; Remote Play, all-hidden Home and controller-focus edge cases have no separate device-test reports.
 
 ## Known limitations
 
@@ -107,7 +107,9 @@ BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bu
 
 ## Support
 
-Clearly Recent is free and open source, built for my own Steam Deck and shared with the community. If it is useful to you, a small tip is always appreciated.
+Clearly Recent is free and open source, built for my own Steam Deck and shared with the community. If you find it useful, consider giving it a ⭐ using the **Star** button at the top of this repository. It is a free way to support the project.
+
+If you would also like to leave a small tip, the details below are entirely optional.
 
 **USDT · TON receiving address:**
 
