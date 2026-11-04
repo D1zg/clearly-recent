@@ -111,7 +111,7 @@ UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
 
 <img src="docs/support/usdt-ton-qr.png" alt="QR code containing the USDT receiving address on TON" width="240" />
 
-The QR code contains the address only. Select **USDT** and **TON** in your sending wallet, and check the full address before confirming. The receiving Wallet prohibits deposits from sanctioned exchanges; such deposits may be frozen.
+This is the original QR code from Wallet, cropped from its receiving screen without regenerating it. It contains a `ton://transfer/` link that compatible wallet apps can open. Select **USDT** and **TON** in your sending wallet, and check the asset, network and full address before confirming. The receiving Wallet prohibits deposits from sanctioned exchanges; such deposits may be frozen.
 
 ## Credits
 
