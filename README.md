@@ -109,10 +109,8 @@ BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bu
 
 If you find the plugin useful, a small tip is always appreciated. Support is entirely optional.
 
-[![Buy me a coffee with USDT](docs/support/coffee-usdt.svg)](#support)
-
 <details>
-<summary>☕ Buy me a coffee · USDT on TON — show address and QR code</summary>
+<summary><img src="docs/support/coffee-usdt.svg" alt="Buy me a coffee — click to show USDT address and QR code" width="296" height="44" align="middle" /> &nbsp; USDT · TON</summary>
 
 **Send only USDT on the TON network.** Do not send via TRON (TRC20), Ethereum (ERC20), Solana or BNB Smart Chain (BEP20).
 
