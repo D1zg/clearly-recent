@@ -115,7 +115,7 @@ Clearly Recent is free and open source, built for my own Steam Deck and shared w
 UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
 ```
 
-[![Open World — Donate](https://img.shields.io/badge/Open%20World-Donate-yellow.svg)](https://t.me/walt/start?startapp=main-utm_src__wb-utm_md__owned-utm_cp__EN)
+[![Open Walt — Donate](https://img.shields.io/badge/Open%20Walt-Donate-yellow.svg)](https://t.me/walt/start?startapp=main-utm_src__wb-utm_md__owned-utm_cp__EN)
 
 Copy the address above, then click the button to open **Walt (formerly Telegram Wallet)** in Telegram. Send **USDT on the TON network** to the copied address; the button does not prefill the recipient or send funds.
 
