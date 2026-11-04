@@ -4,6 +4,8 @@
 
 Clearly Recent keeps your Steam Deck Home screen clean by hiding recently played games that are no longer installed locally.
 
+[![Buy me a coffee with USDT](docs/support/coffee-usdt.svg)](#support)
+
 ## Screenshots
 
 The same Steam Deck Home carousel before and after enabling Clearly Recent. Games explicitly reported as not installed locally are hidden, while the remaining games keep their order.
@@ -90,6 +92,26 @@ pnpm build
 ```
 
 `pnpm release` requires Python 3 and creates a verified ZIP with a SHA256 checksum. GitHub Actions produces artifacts; it does not publish releases automatically.
+
+## Support
+
+If Clearly Recent helps you, you can buy me a coffee with USDT. Support is optional.
+
+**Send only USDT on the TON network.** Do not send via TRON (TRC20), Ethereum (ERC20), Solana or BNB Smart Chain (BEP20).
+
+- **Asset:** USDT (Tether USD)
+- **Network:** TON
+- **Minimum deposit shown by Wallet:** 0.01 USDT; sender fees are additional.
+
+**Receiving address:**
+
+```text
+UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
+```
+
+<img src="docs/support/usdt-ton-qr.png" alt="QR code containing the USDT receiving address on TON" width="240" />
+
+The QR code contains the address only. Select **USDT** and **TON** in your sending wallet, and check the full address before confirming. The receiving Wallet prohibits deposits from sanctioned exchanges; such deposits may be frozen.
 
 ## Credits
 
