@@ -1,87 +1,58 @@
-# Clearly Recent — Hide Uninstalled Games from Steam Deck Home
+# Clearly Recent
 
-[Download v1.0.0](https://github.com/D1zg/clearly-recent/releases/tag/v1.0.0) · [Source code](https://github.com/D1zg/clearly-recent) · [Store submission](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/1138)
+Hide uninstalled games from your Steam Deck Home screen with this small Decky Loader plugin.
 
-A Decky Loader plugin that hides uninstalled games from the Steam Deck Home Recent Games carousel, keeping its native layout, navigation and game order.
+[![Release](https://img.shields.io/github/v/release/D1zg/clearly-recent?label=release)](https://github.com/D1zg/clearly-recent/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/D1zg/clearly-recent/total?label=downloads)](https://github.com/D1zg/clearly-recent/releases)
+[![Stars](https://img.shields.io/github/stars/D1zg/clearly-recent?label=stars)](https://github.com/D1zg/clearly-recent/stargazers)
+[![Support](https://img.shields.io/badge/support-USDT%20%C2%B7%20TON-yellow)](#support)
 
-Built to solve a small annoyance on my own Steam Deck, and shared freely with the community.
+**[Download v1.0.0 ZIP](https://github.com/D1zg/clearly-recent/releases/download/v1.0.0/clearly-recent-1.0.0.zip)** · [Installation](#installation) · [Support](#support)
+
+Requires Decky Loader. Install manually from ZIP; Clearly Recent is not available in the Decky Plugin Store.
 
 ## Screenshots
 
-The same Steam Deck Home carousel before and after enabling Clearly Recent. Games explicitly reported as not installed locally are hidden, while the remaining games keep their order.
+The native Home Recent Games carousel before and after enabling Clearly Recent:
 
 | Before | After |
 | --- | --- |
-| ![Home carousel before enabling Clearly Recent](docs/screenshots/before.jpg) | ![Home carousel after enabling Clearly Recent](docs/screenshots/after.jpg) |
+| ![Steam Deck Home before enabling Clearly Recent](docs/screenshots/before.jpg) | ![Steam Deck Home after enabling Clearly Recent](docs/screenshots/after.jpg) |
 
-## What it does
-
-Steam normally keeps recently played games on the Home screen even after they are uninstalled. Clearly Recent removes those uninstalled games from the Home Recent Games carousel. Installed games remain untouched.
-
-## What it does NOT do
-
-- Does not remove games from your Steam library.
-- Does not modify play history.
-- Does not uninstall games.
-- Does not edit Steam database records.
-- Does not replace the native Home carousel.
-
-## Behaviour
-
-Before:
-- Installed Game A
-- Uninstalled Game B
-- Installed Game C
-
-After:
-- Installed Game A
-- Installed Game C
-
-## Remote Play
-
-A remote-only game is hidden when Steam explicitly reports it as not installed locally. A remote installation without reliable local evidence remains visible.
-
-## Non-Steam Games
-
-Non-Steam shortcuts are intentionally preserved.
-
-## Unknown states
-
-If Steam does not provide enough reliable install-state information, Clearly Recent keeps the game visible instead of hiding it incorrectly. Unsupported and transitional states are preserved.
+**Enjoy a cleaner Steam Deck Home? Give Clearly Recent a ⭐ using the Star button at the top of this repository.**
 
 ## Installation
 
-Clearly Recent is available for manual installation from GitHub. The [Decky Plugin Store submission #1138](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/1138) was closed without merging on October 8, 2026. It is not available in the Store.
+1. Download the ZIP above and transfer it to your Steam Deck.
+2. In Decky settings, enable **Developer mode** and select **Install from ZIP**.
+3. Select `clearly-recent-1.0.0.zip`, then open Library and return to Home.
 
-Development has concluded for this release. Version 1.0.0, its source code and release downloads remain available; no further updates are promised.
+Upgrading from an earlier test version? Uninstall the old plugin first to avoid running two Home patches.
 
-### Development / Manual installation
+To uninstall, select **Decky → Plugins → Clearly Recent → Uninstall**. Open Library and return to Home to restore the native carousel.
 
-1. Download `clearly-recent-1.0.0.zip` from the [v1.0.0 release](https://github.com/D1zg/clearly-recent/releases/tag/v1.0.0).
-2. Transfer the ZIP to your Steam Deck.
-3. In Decky settings, enable Developer mode and use **Install from ZIP**.
-4. Open Library and return to Home.
+## How it works
 
-For upgrades from the earlier test names, uninstall the old plugin first to prevent two Home patches from running together. The manifest name and installation directory have changed; no stable separate Decky ID or saved settings are used. Open Library and return to Home after installation.
+Clearly Recent filters games that Steam explicitly reports as **not installed locally**, while preserving the native carousel, game order and navigation.
 
-## Uninstallation
-
-Decky → Plugins → Clearly Recent → Uninstall. The native behaviour returns after the next Home rerender, such as opening Library and returning to Home.
+- Installed games and Non-Steam shortcuts remain visible.
+- Unknown or transitional install states remain visible.
+- Remote Play games are hidden only when Steam reliably reports they are not installed locally.
+- Your Steam library, play history and database records are unchanged.
 
 ## Compatibility
 
-Steam Deck with Decky Loader. The earlier 0.1.1 implementation was confirmed working on a real Steam Deck. For 1.0.0, the user confirmed Home works and the hidden counter displays 11 on SteamOS 3.8.16 Stable. The user also confirmed that a game remains visible during and after installation and disappears immediately after uninstall. The user confirmed correct operation after a full device restart. Uninstalling the plugin was confirmed to restore native Recent contents. The maintainer also reported successful Beta testing in the Store submission. No independent third-party testing report is claimed. Exact hidden-counter accuracy and the literal Active-status indicator were not independently verified; Remote Play, all-hidden Home and controller-focus edge cases have no separate device-test reports.
+The maintainer confirmed core v1.0.0 behaviour on **SteamOS 3.8.16 Stable**: Home loading, visibility during and after installation, hiding after game removal, full restart and native restoration after plugin uninstall. Successful Beta testing was also reported in the Store submission.
 
-## Known limitations
+There is no independent third-party test report. Exact hidden-counter accuracy, the literal Active-status indicator, Remote Play, all-hidden Home and controller-focus edge cases have no separate device-test confirmation.
 
-- Relies on internal Steam UI structures.
-- Major Steam UI changes may require an update.
-- Conservative unknown handling may leave an uninstalled game visible if Steam exposes insufficient state.
-- Installation changes are reflected on the next native Recent render.
+The plugin relies on internal Steam UI hooks, so Steam updates may break compatibility. Filtering takes effect on a native Home rerender; uncertain install states may leave an uninstalled game visible.
 
-## Development
+**Development has concluded for this release.** Source and downloads remain available; no further updates are promised.
 
-Use Node 20 and pnpm 9.15.9:
+## Building from source
+
+Use **Node 20** and **pnpm 9.15.9**:
 
 ```sh
 pnpm install --frozen-lockfile
@@ -91,25 +62,19 @@ pnpm test
 pnpm build
 ```
 
-`pnpm release` requires Python 3 and creates a verified ZIP with a SHA256 checksum. GitHub Actions produces artifacts; it does not publish releases automatically.
+`pnpm release` requires Python 3 and produces a verified ZIP and SHA256 checksum. GitHub Actions builds artifacts; it does not publish releases automatically. See [architecture](docs/ARCHITECTURE.md) for the implementation.
 
-## Credits
+## Credits and license
 
-- Decky Loader / Steam Deck Homebrew.
-- The official [Decky Plugin Template](https://github.com/SteamDeckHomebrew/decky-plugin-template).
-- [Deck Shelves](https://github.com/santojon/Deck-Shelves) / Jonathan Santos: technical reference for adapted Home render hooks and per-client installation signals.
+Built using the [Decky Plugin Template](https://github.com/SteamDeckHomebrew/decky-plugin-template), with adapted Home render hooks and installation-state patterns from [Deck Shelves / Jonathan Santos](https://github.com/santojon/Deck-Shelves). Thanks to Decky Loader and Steam Deck Homebrew.
 
-AI tools were used during development. See [development provenance](docs/PROVENANCE.md) for the disclosure. The Store review raised concerns about an inaccurate AI checkbox and the use of hooks. The maintainer acknowledged substantial AI involvement and corrected the statement in the [PR discussion](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/1138#issuecomment-6065879528).
+AI tools contributed substantially during development. See [development provenance](docs/PROVENANCE.md) for the disclosure and Store-submission history.
 
-## License
-
-BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bundled dependency terms.
+BSD-3-Clause. See [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md) for attribution, dependency terms and relinking information.
 
 ## Support
 
-Clearly Recent is free and open source, built for my own Steam Deck and shared with the community. If you find it useful, consider giving it a ⭐ using the **Star** button at the top of this repository. It is a free way to support the project.
-
-If you would also like to leave a small tip, the details below are entirely optional.
+Clearly Recent is free and open source. A ⭐ or sharing the plugin is always appreciated. If you would also like to leave a small tip, the details below are entirely optional.
 
 **USDT · TON receiving address:**
 
