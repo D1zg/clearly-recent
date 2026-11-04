@@ -1,10 +1,10 @@
-# Clearly Recent
+# Clearly Recent — Hide Uninstalled Games from Steam Deck Home
 
 [Download v1.0.0](https://github.com/D1zg/clearly-recent/releases/tag/v1.0.0) · [Source code](https://github.com/D1zg/clearly-recent) · [Store submission](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/1138)
 
-Clearly Recent keeps your Steam Deck Home screen clean by hiding recently played games that are no longer installed locally.
+A Decky Loader plugin that hides uninstalled games from the Steam Deck Home Recent Games carousel, keeping its native layout, navigation and game order.
 
-[![Buy me a coffee with USDT](docs/support/coffee-usdt.svg)](#support)
+Built to solve a small annoyance on my own Steam Deck, and shared freely with the community.
 
 ## Screenshots
 
@@ -93,9 +93,26 @@ pnpm build
 
 `pnpm release` requires Python 3 and creates a verified ZIP with a SHA256 checksum. GitHub Actions produces artifacts; it does not publish releases automatically.
 
+## Credits
+
+- Decky Loader / Steam Deck Homebrew.
+- The official [Decky Plugin Template](https://github.com/SteamDeckHomebrew/decky-plugin-template).
+- [Deck Shelves](https://github.com/santojon/Deck-Shelves) / Jonathan Santos: technical reference for adapted Home render hooks and per-client installation signals.
+
+AI tools were used during development. See [development provenance](docs/PROVENANCE.md) for the disclosure. The Store review raised concerns about an inaccurate AI checkbox and the use of hooks. The maintainer acknowledged substantial AI involvement and corrected the statement in the [PR discussion](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/1138#issuecomment-6065879528).
+
+## License
+
+BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bundled dependency terms.
+
 ## Support
 
-If Clearly Recent helps you, you can buy me a coffee with USDT. Support is optional.
+If you find the plugin useful, a small tip is always appreciated. Support is entirely optional.
+
+[![Buy me a coffee with USDT](docs/support/coffee-usdt.svg)](#support)
+
+<details>
+<summary>☕ Buy me a coffee · USDT on TON — show address and QR code</summary>
 
 **Send only USDT on the TON network.** Do not send via TRON (TRC20), Ethereum (ERC20), Solana or BNB Smart Chain (BEP20).
 
@@ -111,16 +128,6 @@ UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
 
 <img src="docs/support/usdt-ton-qr.png" alt="QR code containing the USDT receiving address on TON" width="240" />
 
-This is the original QR code from Wallet, cropped from its receiving screen without regenerating it. It contains a `ton://transfer/` link that compatible wallet apps can open. Select **USDT** and **TON** in your sending wallet, and check the asset, network and full address before confirming. The receiving Wallet prohibits deposits from sanctioned exchanges; such deposits may be frozen.
+Scan the QR code with a compatible wallet app, or copy the address above. Select **USDT** on **TON** and check the full address before confirming. The receiving Wallet prohibits deposits from sanctioned exchanges; such deposits may be frozen.
 
-## Credits
-
-- Decky Loader / Steam Deck Homebrew.
-- The official [Decky Plugin Template](https://github.com/SteamDeckHomebrew/decky-plugin-template).
-- [Deck Shelves](https://github.com/santojon/Deck-Shelves) / Jonathan Santos: technical reference for adapted Home render hooks and per-client installation signals.
-
-AI tools were used during development. See [development provenance](docs/PROVENANCE.md) for the disclosure. The Store review raised concerns about an inaccurate AI checkbox and the use of hooks. The maintainer acknowledged substantial AI involvement and corrected the statement in the [PR discussion](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/1138#issuecomment-6065879528).
-
-## License
-
-BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bundled dependency terms.
+</details>
