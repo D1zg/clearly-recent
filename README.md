@@ -109,15 +109,17 @@ BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bu
 
 Clearly Recent is free and open source, built for my own Steam Deck and shared with the community. If it is useful to you, a small tip is always appreciated.
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg)](https://t.me/walt/start?startapp=main-utm_src__wb-utm_md__owned-utm_cp__EN)
-
-The button opens **Walt (formerly Telegram Wallet)** in Telegram. It does not prefill a payment: choose **Send → USDT → TON** and paste the receiving address below. You can also use the original Wallet QR code or send from another wallet supporting USDT on TON.
+**USDT · TON receiving address:**
 
 ```text
 UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
 ```
 
-**USDT · TON only.** Minimum deposit shown by Wallet: **0.01 USDT**, excluding sender fees. Check the asset and network before confirming.
+[![Open World — Donate](https://img.shields.io/badge/Open%20World-Donate-yellow.svg)](https://t.me/walt/start?startapp=main-utm_src__wb-utm_md__owned-utm_cp__EN)
+
+Copy the address above, then click the button to open **Walt (formerly Telegram Wallet)** in Telegram. Send **USDT on the TON network** to the copied address; the button does not prefill the recipient or send funds.
+
+**USDT · TON only.** Minimum deposit shown by Wallet: **0.01 USDT**, excluding sender fees. Check the asset, network and full address before confirming.
 
 <img src="docs/support/usdt-ton-qr.png" alt="Original receiving QR code from Telegram Wallet" width="180" />
 
