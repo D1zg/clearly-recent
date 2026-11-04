@@ -109,9 +109,9 @@ BSD-3-Clause; see LICENSE and THIRD_PARTY_NOTICES.md for upstream notices and bu
 
 Clearly Recent is free and open source, built for my own Steam Deck and shared with the community. If it is useful to you, a small tip is always appreciated.
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg)](https://my.tt/transfer/UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6?jetton=EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-yellow.svg)](https://t.me/walt/start?startapp=main-utm_src__wb-utm_md__owned-utm_cp__EN)
 
-The button opens a USDT payment request in **MyTonWallet** for the receiving address below. You can also send from **Telegram Wallet** or another wallet: choose **USDT on TON** and copy this address.
+The button opens **Walt (formerly Telegram Wallet)** in Telegram. It does not prefill a payment: choose **Send → USDT → TON** and paste the receiving address below. You can also use the original Wallet QR code or send from another wallet supporting USDT on TON.
 
 ```text
 UQADALs2Um3G3DQkc5C4ZjiZCqHMi-uL5cllUtgsRDMJLwD6
