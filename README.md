@@ -4,7 +4,7 @@ Hide uninstalled games from your Steam Deck Home screen with this small Decky Lo
 
 [![Release](https://img.shields.io/github/v/release/D1zg/clearly-recent?label=release)](https://github.com/D1zg/clearly-recent/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/D1zg/clearly-recent/total?label=downloads)](https://github.com/D1zg/clearly-recent/releases)
-[![Stars](https://img.shields.io/github/stars/D1zg/clearly-recent?label=stars)](https://github.com/D1zg/clearly-recent/stargazers)
+[![Stars](https://img.shields.io/github/stars/D1zg/clearly-recent?label=stars)](https://github.com/D1zg/clearly-recent#top)
 [![Support](https://img.shields.io/badge/support-USDT%20%C2%B7%20TON-yellow)](#support)
 
 **[Download v1.0.0 ZIP](https://github.com/D1zg/clearly-recent/releases/download/v1.0.0/clearly-recent-1.0.0.zip)** · [Installation](#installation) · [Support](#support)
@@ -19,7 +19,7 @@ The native Home Recent Games carousel before and after enabling Clearly Recent:
 | --- | --- |
 | ![Steam Deck Home before enabling Clearly Recent](docs/screenshots/before.jpg) | ![Steam Deck Home after enabling Clearly Recent](docs/screenshots/after.jpg) |
 
-**Enjoy a cleaner Steam Deck Home? Give Clearly Recent a ⭐ using the Star button at the top of this repository.**
+**Enjoy a cleaner Steam Deck Home? Click the Stars badge above to go to the top of this page, then select **☆ Star** to give Clearly Recent a star.**
 
 ## Installation
 
