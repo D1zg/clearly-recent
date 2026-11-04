@@ -4,6 +4,14 @@
 
 Clearly Recent keeps your Steam Deck Home screen clean by hiding recently played games that are no longer installed locally.
 
+## Screenshots
+
+The same Steam Deck Home carousel before and after enabling Clearly Recent. Games explicitly reported as not installed locally are hidden, while the remaining games keep their order.
+
+| Before | After |
+| --- | --- |
+| ![Home carousel before enabling Clearly Recent](docs/screenshots/before.jpg) | ![Home carousel after enabling Clearly Recent](docs/screenshots/after.jpg) |
+
 ## What it does
 
 Steam normally keeps recently played games on the Home screen even after they are uninstalled. Clearly Recent removes those uninstalled games from the Home Recent Games carousel. Installed games remain untouched.
